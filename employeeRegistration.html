@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <!--to create fevicon-->
+    <link rel="shortcut icon" href="userimage.jpg" type="image/x-icon">
+</head>
+<body>
+    <h2>Employee Registration Form</h2>
+    <label>First Name</label> <input type="text">
+    <br><br>
+   <fieldset>
+    <legend>Employee Registration Form</legend>
+    <table>
+        <tbody>
+            <form>
+            <tr>
+                <td><label for="fname">first  name</label></td></td>
+                <td><input type="text" id="fname" autofocus required maxlength="2" placeholder="enter name"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">last name</label></td>
+                <td>    <input type="text" id="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="number">mobile number</label></td>
+                <td><input type="number" id="number"></td>
+            </tr>
+            <tr>
+                <td><label for="">permenant address</label></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Email id</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="">password</label></td>
+                <td><input type="password"required></td>
+            </tr>
+            <tr>
+                <td><label for=""> Select Gender</label></td>
+                <td>
+                    <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other</td>
+            </tr>
+            <tr>
+                <td><label for="">Select your technology stack</label></td>
+                <td><input type="checkbox"> <Label>HTML</Label>
+                    <input type="checkbox"> <Label>CSS</Label>
+                    <input type="checkbox"> <Label>JAVASCRIPT</Label>
+                    <input type="checkbox"> <Label>BOOTSTRAP</Label></td>
+             </tr>
+             <tr>
+                <td><label for="">Upload marksheets</label></td>
+                <td><input type="file" multiple></td>
+             </tr>
+             <tr>
+                <td><label for="">Upload profile photo</label></td>
+                <td><input type="file"></td>
+             </tr>
+             <tr>
+                <td><label for="">Date of birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="">select state</label></td>
+                <td><select>
+                    <option value=""></option>
+                    <option value="mh">mh</option>
+                    <option value="up">up</option>
+
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">country</label></td>
+                <td><input type="text" value="india"readonly disabled></td>
+            </tr>
+             <tr>
+                <td> <button type="reset">Reset</button>
+                <button type="submit">Submit</button></td>
+             </tr>
+             
+             </form>
+        </tbody>
+    </table>
+    </fieldset>
+    </body>
+</html>
